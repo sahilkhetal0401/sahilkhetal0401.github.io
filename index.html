@@ -1,0 +1,146 @@
+<!-- #HTML: Website structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sahil's personal portfolio — BCA graduate focused on Python development and automation.">
+  <title>Sahil Khetal | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="root">
+    <header>
+      <div class="wrap">
+        <nav aria-label="Main navigation">
+          <a class="brand" href="#home" aria-label="Sahil home"><span class="brand-mark">S.</span><span>Sahil Khetal<span class="gradient">.</span></span></a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">Menu ☰</button>
+          <div class="navlinks" id="navlinks">
+            <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certificates">Certificates</a>
+          </div>
+          <a class="nav-cta" href="#contact">Let's connect ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="wrap hero-grid">
+          <div>
+            <div class="eyebrow"><span class="dot"></span> BCA Graduate · Aspiring Developer</div>
+            <h1>Hi, I'm Sahil Khetal<br>I build things<br><span class="gradient">with code.</span></h1>
+            <p class="hero-copy">I'm a BCA graduate building my skills in Python development and automation. I enjoy turning practical problems into simple, useful solutions—and I'm learning by building projects one step at a time.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">Explore my work <span>↘</span></a>
+              <a class="btn secondary" href="#contact">Get in touch <span>↗</span></a>
+            </div>
+            <div class="mini-stats">
+              <div class="stat"><strong>01+</strong><span>Project in progress</span></div>
+              <div class="stat"><strong>Python</strong><span>Current focus</span></div>
+              <div class="stat"><strong>Always</strong><span>Learning by building</span></div>
+            </div>
+          </div>
+          <aside class="profile-card" aria-label="Developer profile card">
+            <div class="profile-top"><span>SAHIL / PROFILE</span><span class="window-dots"><i></i><i></i><i></i></span></div>
+            <div class="avatar">SK</div>
+            <h2>Python Developer<br>in the making.</h2>
+            <p>Backend · Automation · Problem solving</p>
+            <div class="code-lines"><span class="purple">class</span> Developer:<br>&nbsp;&nbsp;focus = <span class="green">"Python & backend"</span><br>&nbsp;&nbsp;approach = <span class="green">"Learn. Build. Improve."</span><br>&nbsp;&nbsp;status = <span class="green">"Open to opportunities"</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrap">
+          <div class="section-head"><div><div class="kicker">A little about me</div><h2 class="section-title">Curious mind.<br>Practical mindset.</h2></div><p class="section-desc">I'm at the beginning of my development career, focused on building a strong foundation through hands-on work.</p></div>
+          <div class="about-grid">
+            <article class="panel reveal"><h3>My journey</h3><p>I recently completed my Bachelor of Computer Applications (BCA). I'm now strengthening my programming fundamentals and building projects that help me understand how software works in real life.</p></article>
+            <article class="panel reveal"><h3>What I'm working toward</h3><p>My current direction is Python backend development and automation—writing useful programs, working with data, learning databases, and gradually building APIs and real applications.</p><div class="pill-list"><span class="pill">Keep it simple</span><span class="pill">Build consistently</span><span class="pill">Learn by doing</span></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="wrap">
+          <div class="section-head"><div><div class="kicker">My toolkit</div><h2 class="section-title">Skills I'm building</h2></div><p class="section-desc">An honest snapshot of my current learning path. I'll update this section as I gain more hands-on experience.</p></div>
+          <div class="skills-grid">
+            <article class="skill-card reveal"><div class="skill-icon">Py</div><h3>Python</h3><p>Fundamentals, conditions, loops, functions, lists, dictionaries, file handling, and basic CLI applications.</p><div class="pill-list"><span class="pill">Core Python</span><span class="pill">File handling</span></div></article>
+            <article class="skill-card reveal"><div class="skill-icon">DB</div><h3>Web & databases</h3><p>Familiar with HTML and CSS, while developing my SQL and MySQL skills through practice.</p><div class="pill-list"><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">SQL — learning</span><span class="pill">MySQL — learning</span></div></article>
+            <article class="skill-card reveal"><div class="skill-icon">Git</div><h3>Developer tools</h3><p>Building a workflow for organizing code, documenting projects, and sharing work professionally.</p><div class="pill-list"><span class="pill">Git/GitHub — learning</span><span class="pill">README writing</span></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="wrap">
+          <div class="section-head"><div><div class="kicker">Things I've built</div><h2 class="section-title">Projects that teach me</h2></div><p class="section-desc">I believe projects are the best way to turn concepts into skills. These cards can link to the actual code once it's uploaded.</p></div>
+          <div class="project-grid">
+            <article class="project reveal">
+              <div class="project-art"><div class="terminal"><div class="terminal-head"><i></i><i></i><i></i></div><div class="terminal-body">$ python p2.py<br><b>1. Sign up</b><br><b>2. Login</b><br>3. Exit<br><br>Choose an option: <b>2</b><br>Welcome back!</div></div></div>
+              <div class="project-body"><div class="project-meta">Python · CLI · File storage</div><h3>Expense Tracker</h3><p>A command-line app to sign up and log in, add/view/edit/delete transactions, filter by date, and calculate income, expenses, and balance using text-file storage.</p><div class="pill-list"><span class="pill">Authentication basics</span><span class="pill">CRUD</span><span class="pill">File handling</span></div><div class="project-foot"><span class="text-link">Project in progress</span><span class="text-link">GitHub link to add ↗</span></div></div>
+            </article>
+            <article class="project reveal">
+              <div class="project-art"><div class="terminal"><div class="terminal-head"><i></i><i></i><i></i></div><div class="terminal-body">$ python automation.py<br><b>Reading input data...</b><br>Checking records...<br><b>Report generated ✓</b><br>Time saved: <b>less manual work</b></div></div></div>
+              <div class="project-body"><div class="project-meta">Planned · Python automation</div><h3>Automation Toolkit</h3><p>A next project idea: automate a repetitive task such as organizing files, validating spreadsheet data, or generating a simple report. I'll add details after building it.</p><div class="pill-list"><span class="pill">Python</span><span class="pill">Automation</span><span class="pill">Practical problem solving</span></div><div class="project-foot"><span class="text-link">Planned project</span><span class="text-link">Details coming later</span></div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head"><div><div class="kicker">My background</div><h2 class="section-title">Education & experience</h2></div><p class="section-desc">A clear view of my academic background and practical learning so far.</p></div>
+          <div class="timeline">
+            <article class="timeline-item reveal"><div class="timeline-mark">ED</div><div><h3>Bachelor of Computer Applications (BCA)</h3><div class="meta">SRM Institute of Science and Technology · Completed</div><p>CGPA: 8.78 / 10. Academic foundation in computer applications, supporting my continued learning in programming and software development.</p></div></article>
+            <article class="timeline-item reveal"><div class="timeline-mark">01</div><div><h3>Python Expense Tracker — Project Experience</h3><div class="meta">Hands-on learning · Ongoing</div><p>Practicing application logic, user flows, transaction records, validation, and file storage by developing a command-line expense tracker.</p></div></article>
+            <article class="timeline-item reveal"><div class="timeline-mark">+</div><div><h3>Professional experience</h3><div class="meta">Add verified work or internship experience</div><p>No formal role has been added to this draft yet. If you've completed any internship, freelance work, volunteering, or relevant event work, we can include it accurately here.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificates">
+        <div class="wrap">
+          <div class="section-head"><div><div class="kicker">Learning milestones</div><h2 class="section-title">Certificates & courses</h2></div><p class="section-desc">Only add certificates you've actually earned. Course-in-progress items can be listed separately.</p></div>
+          <div class="cert-grid">
+            <article class="cert reveal"><div class="cert-icon">✦</div><h3>Certificates & course records</h3><p>Browse my certificate folder to view the courses and credentials I've collected.</p><p style="margin-top:14px"><a class="text-link" href="https://drive.google.com/drive/folders/19aTyq3vlkAXPRP_RqlA3zkham9XelNGEB?usp=drive_link" target="_blank" rel="noopener noreferrer">View certificate folder ↗</a></p></article>
+            <article class="cert reveal"><div class="cert-icon">⌘</div><h3>Continuous learning</h3><p>I'm continuing to develop my Python, backend development, database, and web technology skills.</p></article>
+            <article class="cert reveal"><div class="cert-icon">↗</div><h3>GitHub & LinkedIn</h3><p>Explore my coding profile and professional background.</p><p style="margin-top:14px"><a class="text-link" href="https://github.com/sahilkhetal0401" target="_blank" rel="noopener noreferrer">GitHub ↗</a> &nbsp;·&nbsp; <a class="text-link" href="https://www.linkedin.com/in/sahil-khetal-407bb4321/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="wrap">
+          <div class="contact-box reveal"><div><div class="kicker">Have an opportunity?</div><h2>Let's build<br>something useful.</h2><p>I'm interested in entry-level opportunities, internships, and projects where I can keep learning and contribute. Feel free to reach out by email or connect with me professionally.</p><div class="pill-list"><a class="pill" href="https://github.com/sahilkhetal0401" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="pill" href="https://www.linkedin.com/in/sahil-khetal-407bb4321/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><div class="hero-actions"><a class="btn primary" href="mailto:sahilkhetal02@gmail.com" id="emailLink">Email me ↗</a><a class="btn secondary" href="#home">Back to top ↑</a></div></div>
+        </div>
+      </section>
+    </main>
+    <footer><div class="wrap footer-row"><span>© <span id="year"></span> Sahil. Built with care.</span><span>Python · Backend · Automation</span></div></footer>
+  </div>
+  <script>
+
+// #JavaScript: Website behavior
+    const menuToggle = document.getElementById('menuToggle');
+    const navlinks = document.getElementById('navlinks');
+    menuToggle.addEventListener('click', () => {
+      const open = navlinks.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', String(open));
+    });
+    navlinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navlinks.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  </script>
+</body>
+</html>
